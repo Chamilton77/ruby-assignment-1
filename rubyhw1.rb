@@ -19,8 +19,8 @@ mix_array([:honda, :tesla],["civic", "modelS"])#passed in the 2 arrays
 
 ############################################################
 
-def mul_nums(number)#set up the method to take numbers
-	for i in 1..number # this is the loop that takes the passed number and counts it
+def mul_nums()#set up the method
+	for i in 1..100 # this is the loop that takes the passed number and counts it
 		if i % 5 == 0 && i % 3 == 0 # this if statement says if the number is a multiple of 5 and 3 change it to fizzbuzz
 	        puts "FizzBuzz"#prints fizzbuzz
 	    elsif i % 5 == 0#this is just if the number is multiple of 5 it'll print buzz
@@ -32,4 +32,4 @@ def mul_nums(number)#set up the method to take numbers
 		end
     end	 
 end
-mul_nums(100)#passed in number
+mul_nums()
